@@ -630,10 +630,13 @@ export default function Home() {
                       bgColor="#0d1117"
                       borderRadius={10}
                       border="solid thin"
-                      borderColor="#06b6d4"
+                      borderColor="gray.400"
                       cursor="pointer"
                       transition="transform 0.3s ease-in-out"
-                      _hover={{ transform: "scale(1.05)" }}
+                      _hover={{
+                        transform: "scale(1.05)",
+                        borderColor: "#06b6d4",
+                      }}
                       key={property.id}
                     >
                       <PropertyCard data={property} />
