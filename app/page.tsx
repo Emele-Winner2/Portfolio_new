@@ -617,7 +617,7 @@ export default function Home() {
                   templateRows="repeat(1, 1fr)"
                   templateColumns={{
                     base: "repeat(1, 1fr)",
-                    md: "repeat(3, 1fr)",
+                    md: "repeat(1, 1fr)",
                   }}
                   gap={{ base: "5", md: "3" }}
                   border="none"
